@@ -30,8 +30,8 @@ app.use(compression());
 // CORS middleware
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://yourdomain.com'] 
-    : ['http://localhost:3000'],
+    ? [process.env.CORS_ORIGIN || 'https://your-frontend-domain.netlify.app'] 
+    : ['http://localhost:3000', 'http://localhost:3001'],
   credentials: true
 }));
 

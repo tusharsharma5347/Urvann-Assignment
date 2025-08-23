@@ -1,0 +1,9 @@
+# Frontend Environment Variables for Netlify
+# Copy this to frontend/.env.production
+
+# API Configuration
+VITE_API_URL=https://your-backend-name.onrender.com/api
+
+# Build Configuration
+VITE_APP_NAME=Urvann Plant Store
+VITE_APP_VERSION=1.0.0
