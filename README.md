@@ -1,6 +1,6 @@
-# 🌱 Urvann Mini Plant Store
+# 🌱 Online Plant Store
 
-A full-stack Mini Plant Store application built with React, Node.js, Express, and MongoDB. This project demonstrates modern web development practices with a focus on user experience, scalability, and clean code architecture.
+A full-stack Online Plant Store application built with React, Node.js, Express, and MongoDB. This project demonstrates modern web development practices with a focus on user experience, scalability, and clean code architecture.
 
 ## ✨ Features
 
@@ -123,7 +123,7 @@ Create a `.env` file in the backend directory:
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/plant-store
+MONGODB_URI=YOUR MONGODB URI
 NODE_ENV=development
 ```
 
@@ -203,23 +203,7 @@ NODE_ENV=development
 3. Configure environment variables
 4. Set up custom domain and SSL
 
-## 🧪 Testing
 
-The application includes:
-- **Error Boundaries**: Graceful error handling
-- **Loading States**: Proper loading indicators
-- **Form Validation**: Client and server-side validation
-- **Responsive Testing**: Mobile and desktop compatibility
-
-## 🔮 Future Enhancements
-
-- **User Authentication**: User accounts and admin panel
-- **Shopping Cart**: E-commerce functionality
-- **Image Upload**: Plant image management
-- **Reviews & Ratings**: Customer feedback system
-- **Plant Care Tips**: Educational content
-- **Inventory Management**: Stock tracking
-- **Analytics Dashboard**: Sales and performance metrics
 
 ## 🤝 Contributing
 
@@ -229,14 +213,3 @@ The application includes:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 👨‍💻 Author
-
-Built with ❤️ for the Urvann assignment.
-
----
-
-**Note**: This is a demonstration project showcasing modern web development practices. For production use, additional security measures, testing, and monitoring should be implemented.
