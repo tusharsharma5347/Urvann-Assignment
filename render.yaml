@@ -3,7 +3,6 @@ services:
     name: urvann-plant-store-backend
     env: node
     plan: free
-    buildCommand: cd backend && npm install
     startCommand: cd backend && npm start
     envVars:
       - key: NODE_ENV
